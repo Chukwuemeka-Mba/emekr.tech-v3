@@ -41,9 +41,9 @@ const Navbar = props => {
 
   return (
     <Box
-      position="fixed"
+      position="sticky"
       as="nav"
-      w="95%"
+      w="100%"
       bg={useColorModeValue('#ffffff40', '#20202380')}
       css={{ backdropFilter: 'blur(10px)' }}
       zIndex={2}
@@ -79,7 +79,7 @@ const Navbar = props => {
           </LinkItem>
           <LinkItem
             target="_blank"
-            href="https://github.com/craftzdog/craftzdog-homepage"
+            href="https://github.com/Chukwuemeka-Mba/emekr.tech-v3"
             path={path}
             display="inline-flex"
             alignItems="center"
@@ -114,7 +114,7 @@ const Navbar = props => {
                 </NextLink>
                 <MenuItem
                   as={Link}
-                  href="https://github.com/craftzdog/craftzdog-homepage"
+                  href="https://github.com/Chukwuemeka-Mba/emekr.tech-v3"
                 >
                   View Source
                 </MenuItem>
