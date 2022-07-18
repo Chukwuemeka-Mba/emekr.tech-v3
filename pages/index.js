@@ -25,7 +25,7 @@ const Page = () => {
             <Heading as="h2" variant="page-title">
               Chukwuemeka Mba
             </Heading>
-            <p>Software engineer, publisher.</p>
+            <p>Software engineer, writer.</p>
           </Box>
           <Box flexShrink={0} mt={{base: 4, md: 0}} ml={{ md: 6}} align="center">
           <Image
@@ -41,10 +41,10 @@ const Page = () => {
         </Box>
           <Section delay={0.1}>
           <Heading as="h3" variant="section-title">
-            Work
+            About me.
           </Heading>
           <ParagraphCard>
-      I am Emeka, a full stack software engineer based in Massachusetts USA. 
+      I am a full stack software engineer based in Boston Massachusetts. 
       I work closely with frontend teams to build unique user experiences for my clients’ products. 
       I bring a unique component based approach to frontend development which accelerates build time and frees teams to be their best selves  while working hard to achieve great feats.
               
@@ -64,7 +64,7 @@ const Page = () => {
           </Section>
           <Section delay={0.2}>
           <Heading as="h3" variant="section-title">
-            Bio
+            Work
           </Heading>
           <BioSection>
         <BioYear>
