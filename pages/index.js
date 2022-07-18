@@ -16,9 +16,8 @@ const Page = () => {
         my={5} 
         w="100%" 
         align="center"
-        >
-     Game Changer
-       </Box>
+        >What does it mean to raise the bar? 
+        </Box>
         <Box display={{md: 'flex'}}>
           <Box flexGrow={1} 
         align="center">
