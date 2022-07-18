@@ -4,10 +4,11 @@ import NextLink from 'next/link'
 import Section from "../components/section"
 import ParagraphCard from "../components/paragraph-card"
 import { BioSection, BioYear } from "../components/bio"
-
+import Layout from "../layouts/article"
 
 const Page = () => {
     return (
+      <Layout>
       <Container>
         <Box 
         borderRadius="lg" 
@@ -79,6 +80,7 @@ const Page = () => {
           </BioSection>
           </Section>
       </Container>
+      </Layout>
     )
 }
 

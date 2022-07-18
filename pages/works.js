@@ -1,12 +1,12 @@
 import { Container, Link, Button, Box, Heading, Paragraph, Image, useColorModeValue, SimpleGrid } from "@chakra-ui/react"
-import styled from "@emotion/styled";
-import ParagraphCard from "../components/paragraph-card";
+import Layout from "../layouts/article"
 import Section from "../components/section"
 import { WorkGridItem } from "../components/grid-item";
 import SpotifyImage from "../public/images/spotify.png"
 import WeatherAppImg from "../public/images/mlh-react.png"
 function Works() {
     return ( 
+        <Layout>
     <Container>
         <Heading>
             Works.
@@ -23,6 +23,7 @@ function Works() {
             </Section>
         </SimpleGrid>
     </Container>
+        </Layout>
     );
 }
 
