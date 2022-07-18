@@ -41,7 +41,7 @@ const Navbar = props => {
 
   return (
     <Box
-      position="sticky"
+      position="fixed"
       as="nav"
       w="100%"
       bg={useColorModeValue('#ffffff40', '#20202380')}

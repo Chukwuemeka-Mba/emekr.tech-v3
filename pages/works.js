@@ -8,7 +8,7 @@ function Works() {
     return ( 
         <Layout>
     <Container>
-        <Heading>
+        <Heading as="h3" fontSize={20} mb={4}>
             Works.
         </Heading>
         <SimpleGrid columns={[1,1,1]} gap={6}>

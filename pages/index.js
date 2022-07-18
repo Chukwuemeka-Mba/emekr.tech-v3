@@ -14,7 +14,7 @@ const Page = () => {
         borderRadius="lg" 
         bg={useColorModeValue("whiteAlpha.400", "whiteAlpha.200")} 
         p={3} 
-        my={5} 
+        my={10} 
         w="100%" 
         align="center"
         >Tech + Finance 
