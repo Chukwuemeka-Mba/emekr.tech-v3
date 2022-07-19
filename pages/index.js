@@ -65,7 +65,7 @@ const Page = () => {
       I am a full stack software engineer based in Boston Massachusetts. 
       I bring a unique component based approach to frontend development which accelerates build time and frees teams to be their best selves  while working hard to achieve great feats.
         
-      Currently working with Acumen&apos;'s {""}
+      Currently working with Acumen&apos;s {""}
         
           <Link href="https://payeth-stake-merchant.herokuapp.com/" color={'purple.600'} fontWeight="700">Payeth</Link>
         
