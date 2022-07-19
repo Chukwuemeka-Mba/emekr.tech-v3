@@ -1,4 +1,4 @@
-import { Container, Link, List, Button, Box, Heading, Paragraph, SimpleGrid, Image, useColorModeValue, Grid } from "@chakra-ui/react"
+import { Container, Link, Button, Box, Heading, SimpleGrid, Image, useColorModeValue } from "@chakra-ui/react"
 import { ChevronRightIcon } from '@chakra-ui/icons'
 import NextLink from 'next/link'
 import Section from "../components/section"
@@ -53,6 +53,7 @@ const Page = () => {
           display="inline-block"
           borderRadius="full"
           src="/avatar.png"
+          alt="header-img"
           />
           </Box>
         </Box>
@@ -64,7 +65,7 @@ const Page = () => {
       I am a full stack software engineer based in Boston Massachusetts. 
       I bring a unique component based approach to frontend development which accelerates build time and frees teams to be their best selves  while working hard to achieve great feats.
         
-      Currently working with Acumen's {""}
+      Currently working with Acumen&apos;'s {""}
         
           <Link href="https://payeth-stake-merchant.herokuapp.com/" color={'purple.600'} fontWeight="700">Payeth</Link>
         

@@ -1,7 +1,7 @@
-import { Box, ListItem, List, Text, useColorModeValue, Link } from '@chakra-ui/react'
+import { Box, ListItem, List, useColorModeValue, Link } from '@chakra-ui/react'
 import { IoLogoGithub, IoLogoLinkedin, IoLogoMedium, IoLogoTwitter } from 'react-icons/io5'
 import Section from './section'
-const Footer = props => {
+const Footer = () => {
     return (
     <Box
     align="center" 
