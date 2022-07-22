@@ -43,7 +43,7 @@ function Works() {
             >
               Weather app built with react, styled with sass. Automatically
               selects your location and gives you weather details, suggestions
-              and news reports.{' '}
+              and news reports.
             </WorkGridItem>
           </Section>
         </SimpleGrid>
@@ -57,7 +57,7 @@ function Works() {
             variant="outline"
             my="5"
           >
-            Let's work together.
+            Let&apos;s work together.
           </Button>
         </Link>
       </Box>

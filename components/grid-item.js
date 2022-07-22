@@ -1,17 +1,9 @@
-// import NextLink from 'next/link'
 import Image from 'next/image'
-import { Box, Text, LinkBox, LinkOverlay, Flex, Link } from '@chakra-ui/react'
+import { Box, Text, Flex, Link } from '@chakra-ui/react'
 import { Global } from '@emotion/react'
 import { IoGlobeOutline, IoLogoGithub } from 'react-icons/io5'
 
-export const GridItem = ({
-  children,
-  href,
-  title,
-  live,
-  github,
-  thumbnail
-}) => (
+export const GridItem = ({ children, title, live, github, thumbnail }) => (
   <Box w="100%" align="center">
     <Image
       src={thumbnail}
@@ -33,14 +25,7 @@ export const GridItem = ({
   </Box>
 )
 
-export const WorkGridItem = ({
-  children,
-  id,
-  title,
-  live,
-  github,
-  thumbnail
-}) => (
+export const WorkGridItem = ({ children, title, live, github, thumbnail }) => (
   <Box w="100%" align="center" marginTop={5}>
     <Image
       src={thumbnail}
