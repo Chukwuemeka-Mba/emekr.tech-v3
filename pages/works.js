@@ -12,7 +12,7 @@ import { WorkGridItem } from '../components/grid-item'
 import SpotifyImage from '../public/images/spotify.png'
 import WeatherAppImg from '../public/images/mlh-react.png'
 import LakesideImg from '../public/images/lakeside.png'
-import { IoMail, IoPaperPlane } from 'react-icons/io5'
+import { IoPaperPlane } from 'react-icons/io5'
 
 function Works() {
   return (
