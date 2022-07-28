@@ -11,7 +11,8 @@ import Section from '../components/section'
 import { WorkGridItem } from '../components/grid-item'
 import SpotifyImage from '../public/images/spotify.png'
 import WeatherAppImg from '../public/images/mlh-react.png'
-import { IoMailUnread } from 'react-icons/io5'
+import LakesideImg from '../public/images/lakeside.png'
+import { IoMail, IoPaperPlane } from 'react-icons/io5'
 
 function Works() {
   return (
@@ -24,6 +25,20 @@ function Works() {
           <Section delay={0.1}>
             <WorkGridItem
               id="spotify-clone"
+              title="Lakeside Stydy Centre"
+              thumbnail={LakesideImg}
+              github="https://github.com/Chukwuemeka-Mba/lakeside-v2"
+              live="https://lakeside-v2.vercel.app/"
+            >
+              Lakeside Study Centre is a non profit organisation, part of Opus
+              Dei. A society focused on giving formation to young men good
+              christian formation. I built the website with Nuxt js and Node
+              Sass.
+            </WorkGridItem>
+          </Section>
+          <Section delay={0.2}>
+            <WorkGridItem
+              id="spotify-clone"
               title="Spotify Clone"
               thumbnail={SpotifyImage}
               github="https://github.com/Chukwuemeka-Mba/spotify-clone"
@@ -33,7 +48,7 @@ function Works() {
               components. Built with the spotify web API.
             </WorkGridItem>
           </Section>
-          <Section delay={0.2}>
+          <Section delay={0.3}>
             <WorkGridItem
               id="weather-app"
               title="MLH React Weather App"
@@ -51,13 +66,13 @@ function Works() {
       <Box align={'center'}>
         <Link href="mailto:emekamba10@gmail.com">
           <Button
-            rightIcon={<IoMailUnread />}
+            rightIcon={<IoPaperPlane />}
             colorScheme="black"
             color="black.600"
             variant="outline"
             my="5"
           >
-            Let&apos;s work together.
+            Let&apos;s work together
           </Button>
         </Link>
       </Box>
