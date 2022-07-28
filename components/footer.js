@@ -51,9 +51,6 @@ const Footer = () => {
       </Section>
       <Link href="/">&copy; {new Date().getFullYear()} Emeka.</Link>
     </Box>
-    // <Box align="center" opacity={0.4} fontSize="sm">
-    //   &copy; {new Date().getFullYear()} Takuya Matsuyama. All Rights Reserved.
-    // </Box>
   )
 }
 
